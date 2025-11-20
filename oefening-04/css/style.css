@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    gap: 10px;
+}
+
+div {
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+
+    transition-duration: 0.2s;
+}
+
+#leftArrow:hover {
+    transform: translateX(-10px);
+}
+
+#upArrow:hover {
+    transform: translateY(-15px);
+}
+
+#rightArrow:hover {
+    transform: translateX(10px);
+}
